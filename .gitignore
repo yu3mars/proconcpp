@@ -6,7 +6,11 @@
 *.in
 
 # Cpp Temporary files
-*/Template.cpp
+[Tt]emplate.cpp
+!/[Tt]emplate.cpp
+
+# Ignore Directry
+ignore/
 
 # Compiled Object files
 *.slo
